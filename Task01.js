@@ -7,7 +7,7 @@ const filter = (allStudents, failedStudents) => {
   for (let student of allStudents) {
     passedStudents.push(student);
     for (let loser of failedStudents) {
-      if (student === loser) passedStudents.pop(student);;
+      if (student === loser) passedStudents.pop(student);
     }
   }
 
